@@ -1,32 +1,53 @@
 body {
-  background-color: #696969;
-  font-family: sans-serif; /* changed font family to sans serif*/
-  font-size: 15px;
+  background-color: #696969; *Change 1*
+  font-family: sans-serif; *Change 2*
+  font-size: 15px;*Change 3*
 }
 .container {
-  background-color: #FFF5EE;
-  max-width: 900px;
-  margin: auto;
-  overflow: auto;
+  background-color: #FFF5EE;*Change 4*
+  max-width: 900px;*Change 5*
+  margin: auto;*Change 6*
+  overflow: auto;*Change 7*
 }
   h1 {
-  font-size: 35px;
-  text-shadow: 15px;/*changed text shadow*/
-  text-decoration: underline;/*changed text decoration*/
-  text-decoration-style: dotted;/*chaned text decoration style*/
-  text-decoration-color: white; /*changed text decoraton color*/
+  font-size: 35px;*Change 8*
+  text-shadow: 15px;*Change 9*
+  text-decoration: underline;*Change 10*
+  text-decoration-style: dotted;*Change 11*
+  text-decoration-color: white; *Change 12*
+  border-style:ridge; *Change 13*
+  border-color: silver; *Change 14*
+  text-decoration: underline;*Change 15*
+  font-size: 45px; *Change 16*
+  padding-left: 600px;*Change 17*
+  color: white; *Change 18*
+  font-family: arial black; *Change 19*
+  text-decoration-color: black; *Change 20*
 }
 
 p {
-text-decoration: underline; /* underlined */
-font-size: 45px; /* changed font-size */
-padding-left: 600px;/* adjusted padding to center byline*/
-color: white; /* changed text color from black to white */
-font-family: arial black; /* changed font family from times to arial black */
-text-decoration-color: black; /* changed text-decoration color to black */
-border-style: solid; /* changed border to solid */
-border-color: purple; /* changed border color to purple */
+text-decoration: underline; *Change 21*
+font-size: 45px; *Change 22*
+padding-left: 600px;*Change 23*
+color: white;*Change 24*
+font-family: arial black; *Change 25*
+text-decoration-color: black; *Change 26*
+border-style: solid; *Change 27*
+border-color: purple; *Change 28*
+font-family: comic sans-serif; *Change 29*
+font-stretch: expanded; *Change 30*
+font-variant-ligatures: normal; *Change 30*
+margin: 30px; *Change 31*
+padding-left: 400px; *Change 32*
+
+img {
+  margin: 30px; *Change 33*
+  padding-left: 400px; *Change 34*
+  padding-right: 440px; *Change 35*
+
 }
+
+
 
 @media(min-width:500){
 
