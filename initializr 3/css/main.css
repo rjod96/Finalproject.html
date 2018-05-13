@@ -1,0 +1,36 @@
+body {
+  background-color: #696969;
+  font-family: sans-serif; /* changed font family to sans serif*/
+  font-size: 15px;
+}
+.container {
+  background-color: #FFF5EE;
+  max-width: 900px;
+  margin: auto;
+  overflow: auto;
+}
+  h1 {
+  font-size: 35px;
+  text-shadow: 15px;/*changed text shadow*/
+  text-decoration: underline;/*changed text decoration*/
+  text-decoration-style: dotted;/*chaned text decoration style*/
+  text-decoration-color: white; /*changed text decoraton color*/
+}
+
+p {
+text-decoration: underline; /* underlined */
+font-size: 45px; /* changed font-size */
+padding-left: 600px;/* adjusted padding to center byline*/
+color: white; /* changed text color from black to white */
+font-family: arial black; /* changed font family from times to arial black */
+text-decoration-color: black; /* changed text-decoration color to black */
+border-style: solid; /* changed border to solid */
+border-color: purple; /* changed border color to purple */
+}
+img {
+  margin: 30px; /*adjusted margin*/
+  padding-left: 400px; /* adjusted padding to center image*/
+}
+@media(min-width:500){
+
+}
